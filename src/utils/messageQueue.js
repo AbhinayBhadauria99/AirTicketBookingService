@@ -25,6 +25,7 @@ const subscribeMessage = async (channel, service, binding_key) => {
         });
     } catch (error) {
         throw error;
+
     }
 
 }
